@@ -1,0 +1,86 @@
+/* Document selectors */
+body {
+  background: linear-gradient(to bottom, rgba(89, 153, 255, 1), rgba(89, 153, 255, .4)) no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* ID selectors */
+#city-box {
+  border: 2px solid rgb(91, 91, 91);
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px;
+  font-family: 'PT Serif', serif;
+  font-size: 1.5em;
+}
+
+#prompt-h1 {
+  font-family: 'Noto Serif', serif;
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#not-valid-city {
+  font-family: 'Noto Serif', serif;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#sub-btn {
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px;
+  font-family: 'PT Serif', serif;
+  font-size: 1.5em;
+}
+
+#sub-btn:hover {
+  background-color: rgb(161, 161, 161);
+}
+
+/* Class selectors */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.text-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family: 'PT Serif', serif;
+  font-size: 1.4em;
+}
+
+
+
+@media only screen and (max-width: 812px) {
+  .user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #city-box {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .text-container {
+    font-weight: bold;
+    font-size: 1em;
+  }
+}
