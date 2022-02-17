@@ -3,7 +3,7 @@
  * 
  * Author: Richard Schlack
  */
-const key = "5f90f90921541e20860cd7b0bea71efa";
+const key = "Your key here";
 const btn = document.querySelector('button');
 
 /**
